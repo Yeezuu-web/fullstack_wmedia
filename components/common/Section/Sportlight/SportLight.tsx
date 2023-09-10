@@ -1,10 +1,9 @@
-import Image from 'next/image'
-import SportlightSwtiper from './SportlightSwiper'
+import SpotlightSwtiper from './SpotlightSwiper'
 
 const SportLight = () => {
   return (
 	<div className="w-full h-screen bg-none">
-		<SportlightSwtiper />
+		<SpotlightSwtiper />
 	</div>
   )
 }

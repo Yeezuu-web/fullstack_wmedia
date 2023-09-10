@@ -40,12 +40,11 @@ const MainSwiper = () => {
 		navigation: true,
 		centeredSlides: true,
 		grabCursor: true,
-		effect: 'fade',
 		onSwiper: (swiper: any) => swiperRef.current = swiper
 	}
 
   return (
-	<Swiper {...params} className='hero_slider'>
+	<Swiper {...params} effect='fade' className='hero_slider'>
 		<div className='absolute z-[3] w-full h-[24vh] top-[35%] flex flex-col items-center justify-center select-none'>
 			<span className='text-white text-6xl 2xl:text-9xl font-bold'>W MEDIA</span>
 			<span className='text-white text-xl 2xl:text-2xl font-semibold'>Digital marketing</span>

@@ -50,7 +50,7 @@ const Navbar = () => {
 	  }, [prevScrollPos]);
 
   return (
-	<header className={`fixed z-20 w-full h-[130px] top-0 left-0 right-0 items-center justify-center overflow-hidden transition-colors duration-300 ${
+	<header className={`hidden laptop:fixed z-20 w-full h-[130px] top-0 left-0 right-0 items-center justify-center overflow-hidden transition-colors duration-300 ${
         isScrolled ? 'bg-black' : 'bg-transparent'} ${isScrolledDown ? 'hidden' : 'laptop:flex'}`}>
 		<nav className='container w-full'>
 			<div className='flex items-center justify-end gap-2 mb-1 text-white'>

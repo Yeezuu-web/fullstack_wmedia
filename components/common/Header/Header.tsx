@@ -1,6 +1,4 @@
 import React from 'react'
-import Carousel from './Carousel'
-import Image from 'next/image'
 import MainSwiper from './HeaderSwiper'
 
 const Header = () => {

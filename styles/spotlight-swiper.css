@@ -1,0 +1,25 @@
+  .swiper__wrapper {
+	transition-duration: 0ms;
+    transform: translate3d(-2006.71px, 0px, 0px);
+  }
+
+  .spotlight-swiper {
+	overflow: hidden;
+    position: relative;
+  }
+
+  .home-spotlight-swiper .spotlight-swiper:hover .spotlight-swiper__navigation {
+	opacity: 1;
+  }
+
+  .spotlight-swiper
+  .spotlight_swiper__top {
+	width: 100%;
+	height: 35%;
+  }
+
+  .spotlight-swiper
+  .spotlight_swiper__buttom {
+	width: 100%;
+	height: 35%;
+  }
